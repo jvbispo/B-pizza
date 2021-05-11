@@ -2,6 +2,7 @@ import 'reflect-metadata';
 import express from 'express';
 import { Server, Socket } from 'socket.io';
 import { createServer } from 'http';
+import './infra/typeorm/database/index';
 
 const app = express();
 
