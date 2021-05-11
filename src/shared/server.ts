@@ -17,6 +17,10 @@ io.on('connection', (socket: Socket) => {
   console.log("Nova conexão", socket.id);
 });
 
+app.get('/', (req, res) => {
+  console.log('teste');
+})
+
 app.listen('3000', () => {
   console.log('server started on port: 3000')
 });
