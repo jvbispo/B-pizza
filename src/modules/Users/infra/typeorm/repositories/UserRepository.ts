@@ -1,6 +1,7 @@
-import IUserRepository from '@modules/users/repositories/IUserRepository';
+/* eslint-disable camelcase */
+import IUserRepository from '@modules/Users/repositories/IUserRepository';
 import { Repository, getRepository, Not } from 'typeorm';
-import ICreateUserDTO from '@modules/users/dtos/ICreateUserDTO';
+import ICreateUserDTO from '@modules/Users/dtos/ICreateUserDTO';
 import User from '../entities/User';
 
 class UserRepository implements IUserRepository {

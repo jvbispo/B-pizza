@@ -1,3 +1,4 @@
+/* eslint-disable camelcase */
 import { Request, Response } from 'express';
 import { container } from 'tsyringe';
 import UpdateProfileService from '../../../services/UpdateProfileService';

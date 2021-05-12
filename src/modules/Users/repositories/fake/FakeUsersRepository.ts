@@ -1,3 +1,4 @@
+/* eslint-disable camelcase */
 import IUserRepository from '@modules/Users/repositories/IUserRepository';
 import ICreateUserDTO from '@modules/Users/dtos/ICreateUserDTO';
 import { uuid } from 'uuidv4';
